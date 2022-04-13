@@ -34,9 +34,9 @@ div.button:focus,
 a.link-logo {
     display: block;
     margin: 14px auto;
+    font-family: 'Roboto';
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -50,8 +50,8 @@ a.link-logo>img.img-down {
 }
 
 .container-section-first-screen .title-logo {
-    font-family: 'Roboto';
     font-style: normal;
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 41px;
     line-height: 41px;
@@ -81,8 +81,8 @@ div.first-screen-subtitle div.line {
 div.first-screen-subtitle .subtitle {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Roboto';
     font-style: normal;
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 80px;
     line-height: 80px;
@@ -106,10 +106,10 @@ div.first-screen-subtitle .subtitle {
 }
 
 .promo-text {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 21px;
+    font-family: 'Roboto';
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
@@ -273,7 +273,7 @@ div.container-optimizing>h2 {
     top: 100px;
     left: 391px;
     z-index: 2;
-    width: 753px;
+    width: 800px;
 }
 
 div.container-optimizing>div.text-description {
@@ -344,16 +344,13 @@ div.rectangle-devider {
     margin-top: 25px;
 }
 
-.section-studying ul div.img>img {
-    margin: 0 auto;
-}
-
 .section-studying ul div.img {
     width: 118px;
     height: 118px;
     background: #B4E2FF;
     border-radius: 50%;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 0 auto
 }
